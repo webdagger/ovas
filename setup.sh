@@ -2,8 +2,7 @@
 #       QuickFix Mista X
 #       email: mistax@todaytoday.info
 #       site: http://www.todaytoday.info/mista-x
-clear
-#apt-get update && apt-get upgrade -y
+apt-get update && apt-get upgrade -y
 echo "Detecting Arch For Openvpn Access Download"
 arch=$(uname -m)
 if [ "$arch" == 'i386' ]

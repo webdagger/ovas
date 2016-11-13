@@ -12,6 +12,6 @@ then
     dpkg -i openvpn-as-2.0.10-Ubuntu14.amd_64.deb
 else
     echo "i686"
-    wget http://swupdate.openvpn.org/as/openvpn-as-2.0.10-Ubuntu14.i386.deb
+    wget http://swupdate.openvpn.org/as/openvpn-as-2.1.4-Ubuntu14.amd_64.deb
     dpkg -i openvpn-as-2.0.10-Ubuntu14.i386.deb
 fi
